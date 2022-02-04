@@ -1,0 +1,61 @@
+{
+  "resource": "/wordVector",
+  "path": "/wordVector",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Host": "wj.execute-api.us-east-2.amazonaws.com",
+    "Postman-Token": "93891830-9498-4abc-a7ac-4c40c1a10986",
+    "User-Agent": "PostmanRuntime/7.29.0",
+    "X-Amzn-Trace-Id": "Root=1-61f261f5-382d83ba7b0e83d83d36d8cb",
+    "X-Forwarded-For": "52.95.4.8",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": [
+      "*/*"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Host": [
+      "wj.execute-api.us-east-2.amazonaws.com"
+    ],
+    "Postman-Token": [
+      "93891830-9498-4abc-a7ac-4c40c1a10986"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.0"
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-61f261f5-382d83ba7b0e83d83d36d8cb"
+    ],
+    "X-Forwarded-For": [
+      "52.95.4.8"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": {
+    "method": "getSim",
+    "wordString": "benz"
+  },
+  "multiValueQueryStringParameters": {
+    "method": [
+      "getSim"
+    ],
+    "wordString": [
+      "benz"
+    ]
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "body": null,
+  "isBase64Encoded": false
+}
